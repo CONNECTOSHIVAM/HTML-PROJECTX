@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet adoption form</title>
+</head>
+<body>
+    <!-- hearder section start form the here  -->
+     <header>
+        <h1 style="background-color: rgb(112, 175, 22); width: 50%;"> &nbsp; Pet Adoption Application</h1>
+        <img src="Dog.jpg" alt="Dog-img" height="290px" width="40%">
+     </header>
+
+     <!-- main section from start form the here  -->
+      <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>personal information </legend>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name " required/><br><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone num:</label>
+                <input type="text" id="phone" name="phone" required>
+            </fieldset> <br><br>
+
+            <fieldset>
+                <legend>Pet Preference</legend>
+
+                <label for="type-of-pet">Type-of-pet:</label>
+                <select name="type-of-pet" id="type-of-pet" required>
+                    <option value="">select-one</option>
+                    <option value="dog">dog</option>
+                    <option value="cat">cat</option>
+                    <option value="bird">bird</option>
+                    <option value="others">others</option>
+                </select><br>
+                 
+                <label for="">Age Range:</label><br><br>
+                <input type="radio" id="young" name="age" value="young" required/>
+                <label for="young">Young</label><br>
+                <input type="radio" id="adult" name="age" value="adult" required/>
+                <label for="adult">adult</label><br>
+                <input type="radio" id="senior" name="age" value="adult" required>
+                <label for="senior">senoir</label> <br><br><br>
+                
+
+                <label for="msg">What do want to adept a pet?</label><br><br>
+                <textarea name="msg" id="msg" cols="50" rows="5" required></textarea>
+            </fieldset>
+
+            <br>
+            <button type="submit">Submit Application</button>
+        </form>
+      </main>
+       
+      <!-- start from the fotter section from here  -->
+       <footer>
+        <h2>Watch the special human moments</h2>
+        <video height="240" width="320" controls>
+            <source src="3191251-uhd_4096_2160_25fps.mp4" type="video/mp4">
+        </video>
+       </footer>
+
+
+</body>
+</html>
